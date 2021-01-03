@@ -5,8 +5,8 @@ import Landing from "./Landing";
 import Poll from "./Poll";
 
 const Main = (props) => {
-  const [showTutorial, setShowTutorial] = useState(true);
-  const [finishTutorial, setFinishTutorial] = useState(true);
+  const [showTutorial, setShowTutorial] = useState(false);
+  const [finishTutorial, setFinishTutorial] = useState(false);
 
   return (
     <div className="main">
