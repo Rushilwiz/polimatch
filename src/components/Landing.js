@@ -10,6 +10,7 @@ const Landing = (props) => {
           Poli<i className="bi bi-heart-fill"></i>Match
         </h1>
         <p>Bringing you one step closer to your representatives.</p>
+        <input placeholder="Address..." />
         <button
           onClick={() => {
             props.setShowTutorial(true);
